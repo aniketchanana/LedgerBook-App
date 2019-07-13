@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="#15171E"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <TextView
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Enter your details to use your account"
+        android:textColor="#fff"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_weight="1.7"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageupload"
+                    android:background="@drawable/imgshape"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="60dp"
+                    android:src="@drawable/man"/>
+                <EditText
+                android:id="@+id/user_name"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/enter_email"
+                android:gravity="start|center"
+                android:hint="Name"
+                android:paddingLeft="8dp"
+                android:textColor="#fff"
+                android:textColorHint="#929292"
+                android:textSize="15dp" />
+
+                <EditText
+                android:id="@+id/user_phone"
+                android:inputType="phone"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/enter_email"
+                android:gravity="start|center"
+                android:hint="Phone no."
+                android:paddingLeft="8dp"
+                android:textColor="#fff"
+                android:textColorHint="#929292"
+                android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/user_account"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/enter_email"
+                    android:gravity="start|center"
+                    android:hint="Account name"
+                    android:paddingLeft="8dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#929292"
+                    android:textSize="15dp" />
+                <Button
+                    android:layout_marginBottom="60dp"
+                    android:id="@+id/submit_details"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shape"
+                    android:gravity="center"
+                    android:hint="Submit"
+                    android:textColorHint="#fff"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/logout_btn"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shape"
+                    android:gravity="center"
+                    android:hint="Log Out"
+                    android:textColorHint="#fff"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

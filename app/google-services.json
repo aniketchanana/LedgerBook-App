@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "307873238839",
+    "firebase_url": "https://myledgerbook-117ca.firebaseio.com",
+    "project_id": "myledgerbook-117ca",
+    "storage_bucket": "myledgerbook-117ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307873238839:android:568620a9772d9c4a",
+        "android_client_info": {
+          "package_name": "com.aniket.myledgerbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307873238839-6ok9sbs9r5a0m9akrtapi3pu6q74ugvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniket.myledgerbook",
+            "certificate_hash": "7f8c5c612e068ebe9b6fd3894e85d59dceaef088"
+          }
+        },
+        {
+          "client_id": "307873238839-pq01oa5uv2aehirmkhh0kjunhdm7sja8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATCeUjWHk1Wvc9vPJfSKuIv9VxKhvsxUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307873238839-pq01oa5uv2aehirmkhh0kjunhdm7sja8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
